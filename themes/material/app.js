@@ -204,7 +204,7 @@ function file(path){
 		return file_video(path);
 	}
 
-	if("|mpg|mpeg|mk@v|rm|rmvb|mov|wmv|asf|ts|flv|".indexOf(`|${ext}|`) >= 0){
+	if("|mpg|mpeg|mkv|rm|rmvb|mov|wmv|asf|ts|flv|".indexOf(`|${ext}|`) >= 0){
 		return file_video(path);
 	}
 	
