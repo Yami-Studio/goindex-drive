@@ -275,7 +275,7 @@ function file_video(path){
 	var url = window.location.origin + path;
 	var playBtn = `
       <button class="mdui-btn mdui-ripple mdui-color-theme-accent" mdui-menu="{target:'#external-player'}">
-        <i class="mdui-icon material-icons">&#xe039;</i> Play in External Player
+        <i class="mdui-icon material-icons">&#xe039;</i> Assistir em player externo
 	  </button>
 	  <ul class="mdui-menu" id="external-player">`;
 	if (/(iPhone|iPad|iPod|iOS|Android)/i.test(navigator.userAgent)) {
